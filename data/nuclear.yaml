@@ -1,0 +1,21 @@
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../datasets/coco  # dataset root dir
+train: xinxixitong/images/train  # train images (relative to 'path') 128 images
+val: xinxixitong/images/val  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+names:
+  0: waves-weak
+  1: waves-strong
+  2: Bubbles in front of the transducer
+  3: juvenile fish school
+  4: jellyfish and plankton
+  5: wake bubbles of ships
+  6: fish school
+  7: Other floating organisms
+  8: Invalid echo
+  9: foreign object1
+  10: foreign object2
+  11: foreign object3
